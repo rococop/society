@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  color: black;
+}
+h2 {
+  color: #2e8b57;
+}
+ul {
+  margin-left: 20px;
+}
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+.book-layout {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.left-menu {
+  width: 35%;
+  background-color: #2e8b57;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.menu-item {
+  background-color: #3cb371;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  user-select: none;
+}
+.menu-item:hover {
+  background-color: #66cdaa;
+}
+.content-box {
+  width: 65%;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  min-height: 120px;
+}
