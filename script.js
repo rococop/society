@@ -9,7 +9,6 @@ const contentData = {
   light: "지자체별 형광등 분리 배출 용기에 배출 \ -직관형(FL), 환형(FCL), 안정기 내장형(CFL), 콤팩트형(FPL), 기타 수은을 함유한 조명제품"
 };
 
-
 window.addEventListener("DOMContentLoaded", () => {
   const items = document.querySelectorAll(".menu-item");
   const contentBox = document.getElementById("content-box");
